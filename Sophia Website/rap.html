@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perky - Berkayfrmdao</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header1">
+<nav class="nav">
+	<div class="menu-toggle"></div>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="galerie.html">Galerie</a></li>
+		<li><a href="rap.html">Musik</a></li>
+		<li><a href="kontakt.html">Kontakt</a></li>
+	</ul>
+</nav>
+<main>
+<div class="musikplay">
+	<a class="64" onclick="playvon()" ondblclick="pausevon()">
+		<img src="img/play-icon3.jpg" class="keef" alt="King Von">
+	</a>
+<script>
+	var myvon = new Audio();
+    myvon.src = 'mp3/audio_file2.mp3';
+
+const playvon = () =>{
+	myvon.play();
+}
+const pausevon = () =>{
+	myvon.pause();
+}
+</script>
+</div>
+
+<div class="musikplay">
+	<a class="55" onclick="playkeef()" ondblclick="pausekeef()">
+		<img src="img/play-icon.jpg" class="keef" alt="Chief Keef">
+	</a>
+<script>
+	var mykeef = new Audio();
+    mykeef.src = 'mp3/audio_file.mp3';
+
+const playkeef = () =>{
+	mykeef.play();
+}
+const pausekeef = () =>{
+	mykeef.pause();
+}
+</script>
+</div>
+
+<div class="musikplay">
+	<a class="21" onclick="playsavage()" ondblclick="pausesavage()">
+		<img src="img/play-icon2.jpg" class="keef" alt="21 Savage">
+	</a>
+<script>
+	var mysavage = new Audio();
+    mysavage.src = 'mp3/audio_file3.mp3';
+
+const playsavage = () =>{
+	mysavage.play();
+}
+const pausesavage = () =>{
+	mysavage.pause();
+}
+</script>
+</div>
+
+<div class="musikplay">
+	<a class="Berkay1" onclick="playperc1()" ondblclick="pauseperc1()">
+		<img src="img/galerie4.jpeg" class="keef" alt="21 perc1">
+	</a>
+<script>
+	var myperc1 = new Audio();
+    myperc1.src = 'mp3/audio_file4.mp3';
+
+const playperc1 = () =>{
+	myperc1.play();
+}
+const pauseperc1 = () =>{
+	myperc1.pause();
+}
+</script>
+</div>
+
+<div class="musikplay">
+	<a class="Berkay2" onclick="playperc2()" ondblclick="pauseperc2()">
+		<img src="img/galerie2.jpeg" class="keef" alt="21 perc2">
+	</a>
+<script>
+	var myperc2 = new Audio();
+    myperc2.src = 'mp3/audio_file5.mp3';
+
+const playperc2 = () =>{
+	myperc2.play();
+}
+const pauseperc2 = () =>{
+	myperc2.pause();
+}
+</script>
+</div>
+
+<div class="musikplay">
+	<a class="Berkay3" onclick="playperc3()" ondblclick="pauseperc3()">
+		<img src="img/galerie6.jpeg" class="keef" alt="Berkayfrmdao">
+	</a>
+<script>
+	var myperc3 = new Audio();
+    myperc3.src = 'mp3/audio_file6.mp3';
+
+const playperc3 = () =>{
+	myperc3.play();
+}
+const pauseperc3 = () =>{
+	myperc3.pause();
+}
+</script>
+</div>
+</main>
+</header>
+</body>
+</html>

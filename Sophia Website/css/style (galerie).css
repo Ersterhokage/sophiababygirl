@@ -1,0 +1,210 @@
+@font-face {
+	font-family: 'Bloody';
+    src:url(../font/bloody.ttf)
+}
+@font-face {
+	font-family: 'Rubik';
+    src:url(../font/rubik.ttf)
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+nav {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  padding: 25px;
+	z-index: 1;
+}
+
+.nav1 {
+	background-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  padding: 25px;
+	z-index: 1;
+}
+
+body {
+background-color: #000;
+color: #000;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li {
+	margin: 10px 20px;
+}
+nav ul li a {
+	color: rgb(146, 0, 0);
+	font-size: 1.2em;
+	font-family: 'Bloody';
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+nav ul li a:hover {
+	color: rgb(255, 66, 66);
+}
+.social-links {
+	margin: auto;
+}
+.social-links img {
+	width: 30px;
+	height: 30px;
+	margin-left: 23px;
+}
+.social-links a:hover{
+	opacity: 0.7;
+}
+body {
+	height: 98.3vh;
+	background-color: rgba(0, 0, 0, 0.860);
+	background-image: url("../img/playboicartier.jpg");
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: 100% 150%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.galeriebox {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+  
+.galeriebox-block {
+  width: 50%;
+  min-height: 11.25rem;
+  padding: 6px; 
+}
+
+.cooles-link:hover .cooles-bild1 {
+    left: -1rem;
+    top: -1rem;
+}
+.cooles-link:hover .cooles-bild2 {
+    left: 1rem;
+    top: -1rem;
+}
+.cooles-link:hover .cooles-bild3 {
+    left: -1rem;
+}
+.cooles-link:hover .cooles-bild4 {
+    left: 1rem;
+}
+.cooles-link:hover .cooles-bild5 {
+    left: -1rem;
+    top: 1rem;
+}
+.cooles-link:hover .cooles-bild6 {
+    left: 1rem;
+    top: 1rem;
+}
+
+.image-galeriebox .cooles-bild {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transition-property: opacity, top, left, box-shadow;
+  transition-property: opacity, top, left, box-shadow;
+}
+
+.cooles-link {
+  display: block;
+}
+  
+.cooles-link:hover .cooles-bild {
+  opacity: 1;
+}
+  
+  .cooles-link:hover .cooles-bild-link {
+  display: block;
+}
+  
+.cooles-link:hover .cooles-bild-link:hover .cooles-bild {
+  opacity: 0.5;
+}
+  
+.cooles-bild {
+  display: block;
+  width: 270px;
+  height: 180px;
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.125s;
+  transition-duration: 0.125s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.cooles-link:hover .cooles-bild1 {
+box-shadow: -5px -5px 2px rgba(143, 11, 11, 0.65),
+    -10px -10px 4px rgba(143, 11, 11, 0.5), -15px -15px 6px rgba(143, 11, 11, 0.35),
+    -20px -20px 8px rgba(143, 11, 11, 0.2), -25px -25px 10px rgba(143, 11, 11, 0.05);
+}
+  
+.cooles-link:hover .cooles-bild2 {
+box-shadow: 5px -5px 2px rgba(143, 11, 11, 0.65), 10px -10px 4px rgba(143, 11, 11, 0.3),
+    15px -15px 6px rgba(143, 11, 11, 0.35), 20px -20px 8px rgba(143, 11, 11, 0.2),
+    25px -25px 10px rgba(143, 11, 11, 0.05);
+}
+
+.cooles-link:hover .cooles-bild3 {
+box-shadow: -5px 0 2px rgba(143, 11, 11, 0.65),
+    -10px 0 4px rgba(143, 11, 11, 0.5),
+    -15px 0 6px rgba(143, 11, 11, 0.35),
+    -20px 0 8px rgba(143, 11, 11, 0.2),
+    -25px 0 10px rgba(143, 11, 11, 0.05);
+}
+
+.cooles-link:hover .cooles-bild4 {
+box-shadow: 5px 0 2px rgba(143, 11, 11, 0.65),
+    10px 0 4px rgba(143, 11, 11, 0.5),
+    15px 0 6px rgba(143, 11, 11, 0.35),
+    20px 0 8px rgba(143, 11, 11, 0.2),
+    25px 0 10px rgba(143, 11, 11, 0.05);
+}
+  
+.cooles-link:hover .cooles-bild5 {
+box-shadow: -5px 5px 2px rgba(143, 11, 11, 0.65), -10px 10px 4px rgba(143, 11, 11, 0.5),
+    -15px 15px 6px rgba(143, 11, 11, 0.35), -20px 20px 8px rgba(143, 11, 11, 0.2),
+    -25px 25px 10px rgba(143, 11, 11, 0.05);
+}
+  
+.cooles-link:hover .cooles-bild6 {
+box-shadow: 5px 5px 2px rgba(143, 11, 11, 0.65),
+    10px 10px 4px rgba(143, 11, 11, 0.5), 15px 15px 6px rgba(143, 11, 11, 0.35),
+    20px 20px 8px rgba(143, 11, 11, 0.2), 25px 25px 10px rgba(143, 11, 11, 0.05);
+}

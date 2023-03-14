@@ -1,0 +1,243 @@
+@font-face {
+	font-family: 'Bloody';
+    src:url(../font/bloody.ttf)
+}
+@font-face {
+	font-family: 'Rubik';
+    src:url(../font/rubik.ttf)
+}
+nav {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 25px;
+	z-index: 1;
+}
+.nav1 {
+		background-color: rgb(0, 0, 0);
+		color: rgb(0, 0, 0);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 25px;
+		z-index: 1;
+}
+body {
+
+background-color: #000;
+color: #000;
+
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li {
+	margin: 10px 20px;
+}
+nav ul li a {
+	color: rgb(0, 38, 255);
+	font-size: 1.2em;
+	font-family: 'Bloody';
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+nav ul li a:hover {
+	color: rgb(28, 28, 53);
+}
+.social-links {
+	margin: auto;
+}
+.social-links img {
+	width: 30px;
+	height: 30px;
+	margin-left: 23px;
+}
+.social-links a:hover{
+	opacity: 0.7;
+}
+header h1 {
+	font-size: 4em;
+	margin-top: -35px;
+	color: rgb(17, 0, 255);
+	font-family: 'Rubik';
+}
+header h2 {
+	font-size: 2em;
+	margin-top: -20px;
+	color: rgb(236, 236, 236);
+}
+header {
+	height: 98.3vh;
+	background-color: rgba(0, 0, 0, 0.860);
+	background-image: url("../img/hamburg1.jpeg");
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: 205vh 100vh;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.header1 {
+	height: 98.3vh;
+	background-color: rgba(0, 0, 0, 0.860);
+	background-image: url("../img/collegebild.jpeg");
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.header2 {
+	height: 96.1vh;
+	background-color: rgba(0, 0, 0, 0.860);
+	background-image: url("../img/carti.png");
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+section {
+	padding: 100px 0;
+	text-align: center;
+}
+section h2 {
+	font-size: 3em;
+	margin-bottom: 50px;
+	color: #f00;
+}
+section p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin: 0 auto;
+	max-width: 600px;
+}
+audio {
+	margin-top: 50px;
+	display: block;
+	margin: 0 auto;
+}
+form label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	color: #f00;
+}
+form input[type="text"], form input[type="email"], form textarea {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f2f2f2;
+	width: 100%;
+	max-width: 600px;
+}
+form input[type="submit"] {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f00;
+	color: #fff;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+  
+section#contact {
+	padding: 100px 0;
+	background-color: #000;
+	color: rgb(255, 255, 255);
+}
+section#contact h2 {
+	color: #f00;
+}
+form label {
+	color: rgb(204, 0, 0);
+}
+form input[type="text"], form input[type="email"], form textarea {
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #f00;
+}
+form input[type="submit"] {
+	background-color: rgb(155, 0, 0);
+	color: rgb(0, 0, 0);
+	transition: all 0.2s ease;
+}
+form input[type="submit"]:hover {
+	background-color: #f00;
+	color: #fff;
+	cursor: pointer;
+}
+
+section#gallery {
+	padding: 100px 0;
+	background-color: rgb(0, 0, 0);
+}
+section#gallery h2 {
+	color: rgb(121, 0, 0);
+	text-align: center;
+	margin-bottom: 50px;
+}
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.gallery-container img {
+	width: calc(33.33% - 10px);
+	margin-bottom: 20px;
+}
+.gallery-container img:last-of-type {
+	margin-bottom: 0;
+}
+
+.keef {
+	width: 300px;
+	height: 200px;
+	border-radius: 20px;
+	box-shadow: 0 0 100px rgba(133, 0, 0, 0.829);
+}
+
+main {
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+	width: 80%;
+	column-count: 3;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.musikplay {
+	width: 30%; height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+
+}
